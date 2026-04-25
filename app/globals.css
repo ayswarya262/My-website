@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding:0;
   font-family: 'Times New Roman', Times, serif;
-    background-image:url("/body.jpg");
+    background-image:url("/navi.jpg");
 background-size:cover;
 background-position:center;
  
@@ -15,9 +15,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items:center;
-  background-image:url("/navigation.jpg");
-background-size:cover;
-background-position:center;
+
 }
 
 .left {
@@ -37,7 +35,7 @@ text-decoration: none;
   color:white;
 }
 nav .right a:hover{
-  color:grey;
+  color:black
 
 }
 
@@ -58,12 +56,15 @@ nav .right a:hover{
   
 }
 
+
 .card {
   background: white;
   padding: 15px;
   margin: 10px 0;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  
+  
 }
 
 footer {
@@ -71,6 +72,9 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
+  background-image:url("/footer.jpg");
+background-size:cover;
+background-position:center;
 }
 
 
@@ -298,7 +302,7 @@ input{
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-background-image:url("/ui1.jpg");
+background-image:url("/navbar1.jpg");
 background-size:cover;
 background-position:center;
 
@@ -338,6 +342,7 @@ padding:10px;
 color:black;
   gap: 25px;
   padding: 50px;
+
 }
 
 
@@ -350,6 +355,7 @@ color:black;
 
 .card:hover {
   transform: translateY(-10px);
+  
 }
 
 .card img {
