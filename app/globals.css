@@ -2,21 +2,22 @@ body {
   margin: 0;
   padding:0;
   font-family: 'Times New Roman', Times, serif;
-   background-Image: url('/bg.jpg');
-    background-Size: cover;
-    background-Position: center;
+    background-image:url("/body.jpg");
+background-size:cover;
+background-position:center;
  
 
 }
 
 nav{
-  background:white;;
-  color: black;
+  color: white;
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items:center;
-  
+  background-image:url("/navigation.jpg");
+background-size:cover;
+background-position:center;
 }
 
 .left {
@@ -33,7 +34,7 @@ display: flex;
 nav .right a{
 text-decoration: none;
   font-weight: bold;
-  color:black;
+  color:white;
 }
 nav .right a:hover{
   color:grey;
@@ -41,7 +42,7 @@ nav .right a:hover{
 }
 
 .left img{
-  width:50px;
+  width:70px;
   border-radius:70px;
 }
 .container {

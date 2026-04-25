@@ -3,7 +3,7 @@ export default function Header() {
   return (
     <nav>
       <div  className="left">
-        <img src="/web.jpg" />
+        <img src="/logo.jpg" />
       <h2>HARI TECHNOLOGIES</h2>
       </div>
       <div className="right">
