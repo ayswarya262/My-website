@@ -1,7 +1,12 @@
 body {
   margin: 0;
+  padding:0;
   font-family: 'Times New Roman', Times, serif;
-  background: #f5f5f5;
+   background-Image: url('/bg.jpg');
+    background-Size: cover;
+    background-Position: center;
+ 
+
 }
 
 nav{
@@ -118,7 +123,7 @@ input{
   color:white;
   height:35px;
   width:70px
-
+  
 }
   
 .box {
@@ -148,7 +153,6 @@ input{
   align-items: center;
   padding: 60px;
   height: 100vh;
-  background: black;
   color: white;
 }
 .home-left {
@@ -213,10 +217,14 @@ input{
 
   
   nav {
-    flex-direction: column;
-    align-items: flex-start;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
     padding: 10px;
+    background-color: blue;
+    
   }
+
 
   nav .right {
     flex-direction: column;
@@ -230,6 +238,7 @@ input{
     padding: 20px;
     height: auto;
     text-align: center;
+   
   }
 
   .home-left {
@@ -252,7 +261,7 @@ input{
     max-width: 260px;
   }
 
-  /* SERVICE CARDS */
+  
   .service-card {
     width: 100%;
     max-width: 250px;
@@ -274,4 +283,75 @@ input{
     width: 100%;
     margin-top: 10px;
   }
+}
+
+.home {
+  text-align: center;
+}
+
+
+.hero {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+background-image:url("/ui1.jpg");
+background-size:cover;
+background-position:center;
+
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 600px;
+  opacity: 0.8;
+}
+
+
+.button {
+  margin-top: 20px;
+  padding:  25px;
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:90px;
+  height:60px;
+padding:10px;
+}
+
+.button:hover {
+  background:#ff4d4d;
+}
+
+.services {
+  display: grid;
+color:black;
+  gap: 25px;
+  padding: 50px;
+}
+
+
+.card {
+  background: #f5f5f5;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 70px;
+  margin-bottom: 10px;
 }
