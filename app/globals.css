@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding:0;
   font-family: 'Times New Roman', Times, serif;
-    background-image:url("/navi.jpg");
+    background-image:url("/navigation.jpg");
 background-size:cover;
 background-position:center;
  
@@ -40,8 +40,9 @@ nav .right a:hover{
 }
 
 .left img{
-  width:70px;
-  border-radius:70px;
+  width:50px;
+  border-radius:90px;
+  height:40px;
 }
 .container {
   padding: 20px;
@@ -50,11 +51,7 @@ nav .right a:hover{
   text-align:center;
 }
 
-.about{
-  color:white;
-  min-height:100vh;
-  
-}
+
 
 
 .card {
@@ -123,7 +120,14 @@ input{
   width:150px;
   border-radius:5px;
 }
-.btn{
+#Submit{
+  background-color: blue;
+  color:white;
+  height:35px;
+  width:70px
+  
+}
+#Reset{
   background-color: blue;
   color:white;
   height:35px;
@@ -135,23 +139,68 @@ input{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh; 
+  height: 100vh; 
 }
 
-.login {
+.contact{
+  display:flex;
+  color:white;
   padding: 30px;
   background-color: white;
   width: 100%;
-  max-width: 300px;   
+  max-width: 320px;   
   border-radius: 10px;
+  flex-direction:column;
+  gap:10px;
+}
+.contact input{
+  padding:8px;
+  width:90%;
+}
+.contact select{
+  width:70%;
+ padding:8px;
+ display:block;
+ margin:0 auto;
+}
+.contact label{
+  font-weight:bold;
+}
+.btns{
+display:flex;
+justify-content:space-between;
+margin-top:10px;
+}
+.btns button{
+  width:48%;
+  padding:10px;
+  border:none;
+  border-radius:5px;
+  background-color: blue;
+  color:white;
+  cursor:pointer;
+}
+.btns button:hover{
+  background-color:aqua;
+  color:black;
 }
 .about{
+  padding:50px;
   font-size:large;
+  background-image:url('/navbar1.jpg');
+color:white;
+  min-height:100vh;
 }
-.images{
-  width:50px;
-  height:50px;
+.about h2:hover{
+color:darkgray;
 }
+.about h1:hover{
+color:darkgray;
+}
+.about p:hover{
+color:grey;
+}
+
 .home {
   display: flex;
   justify-content: space-between;
@@ -302,7 +351,7 @@ input{
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-background-image:url("/navbar1.jpg");
+background-image:url("/ui1.jpg");
 background-size:cover;
 background-position:center;
 

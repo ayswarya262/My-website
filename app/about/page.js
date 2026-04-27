@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="about">
 
-      <h1>About Us</h1>
+      <h1>About Us 📊</h1>
 
       <p className="about-text">
         We are a forward-thinking digital solutions team dedicated to delivering

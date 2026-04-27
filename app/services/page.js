@@ -1,7 +1,7 @@
 export default function Services() {
   return (
     <div className="service">
-      <h1 style={{color:"white"}}> Our Services</h1>
+      <h1 style={{color:"white"}}> Our Services 📈</h1>
 
       <p className="about-intro">
         We are a modern digital solutions team specializing in web development,
