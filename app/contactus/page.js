@@ -1,3 +1,4 @@
+"use client";
 export default function Contactus() {
   return (
     <div className="box">
@@ -23,7 +24,9 @@ export default function Contactus() {
         </select>
 
         <div className="btns">
-    <button type="submit">Submit</button>
+ <button type="Submit" onClick={() => alert("Submitted!")}>
+  Submit
+</button>
     <button type="Reset" >Reset</button>
     </div>
     </form>
